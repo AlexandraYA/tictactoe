@@ -1,3 +1,6 @@
+Go and play [TicTacToe](http://sashapro.ru/tictactoe/).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
@@ -11,3 +14,9 @@ With new features:
 4) Add a toggle button that lets you sort the moves in either ascending or descending order.
 5) When someone wins, highlight the three squares that caused the win.
 6) When no one wins, display a message about the result being a draw.
+7) Play ground can be more than 3 to 3 squares.
+8) User can set play ground dimensions.
+
+![Setting Form](/images/screenshot1.jpg)
+![Large field](/images/screenshot2.jpg)
+![Small field](/images/screenshot3.jpg)

@@ -30,9 +30,6 @@ export default class CalculateWinner {
       this.rowsArr.push(temp);
     }
 
-    console.log("rowsArr = ", this.rowsArr);
-    console.log("rowsWinGroup = ", rowsWinGroup);
-
     for (let i = 0; i < rows; i++) {
       let temp = [];
 
@@ -46,9 +43,6 @@ export default class CalculateWinner {
       
       this.colsArr.push(temp);
     }
-
-    console.log("colsArr = ", this.colsArr);
-    console.log("colsWinGroup = ", colsWinGroup);
     
     let c1 = 0;
     let c2 = c1 + 1;
@@ -80,8 +74,6 @@ export default class CalculateWinner {
       r3++;
     }
 
-    //console.log('tempD = ', tempD);
-
     let tempDV = [];
     c1 = cols - 1;
     c2 = c1 - 1;
@@ -109,7 +101,6 @@ export default class CalculateWinner {
       r3++;
     }
 
-    //console.log('tempDV = ', tempDV);
     this.winGroups = rowsWinGroup.concat(colsWinGroup,tempD,tempDV);
   }
 
