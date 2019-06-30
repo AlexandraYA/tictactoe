@@ -17,6 +17,6 @@ With new features:
 7) Play ground can be more than 3 to 3 squares.
 8) User can set play ground dimensions.
 
-![Setting Form](/images/screenshot1.jpg)
-![Large field](/images/screenshot2.jpg)
-![Small field](/images/screenshot3.jpg)
+![Setting Form](/screenshot1.jpg)
+![Large field](/screenshot2.jpg)
+![Small field](/screenshot3.jpg)
